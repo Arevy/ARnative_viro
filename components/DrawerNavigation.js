@@ -16,9 +16,8 @@ const navigatie = createDrawerNavigator({
 },
 {
     initialRouteName: 'Home',
-    drawerWidth: Dimensions.get('window').width,
+    drawerWidth: 200,
     drawerPosition: 'left',
-    drawerBackgroundColor: 'transparent',
 });
 
 const AppContainer = createAppContainer(navigatie);

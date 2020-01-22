@@ -14,7 +14,7 @@ export default class HomeScreen extends Component {
         <View style={styles.view}>
             <TouchableHighlight onPress={() => this.props.navigation.dispatch(DrawerActions.openDrawer())}
             style={styles.touchableHighlight} underlayColor={'rgba(0,0,0,0.8)'}>
-                <Text style={styles.open}> OPEN </Text>
+                <Text style={styles.open}>Press me</Text>
             </TouchableHighlight>
             <Text style={styles.text}> This is HomeScreen </Text>
         </View>
@@ -34,15 +34,15 @@ const styles = StyleSheet.create({
         color: 'purple',
     },
     touchableHighlight: {
-        width: 50,
-        height: 50,
-        backgroundColor: 'red',
+        width: 80,
+        height: 80,
+        backgroundColor: '#9966ff',
         borderRadius: 50,
         alignItems: 'center',
         justifyContent: 'center',
         position: 'absolute',
         left: 10,
-        top: 10,
+        top: 50,
     },
     open: {
         color: 'white',
