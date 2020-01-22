@@ -28,19 +28,19 @@ const styles = StyleSheet.create({
         flex: 1,
         alignItems: 'center',
         justifyContent: 'center',
-        backgroundColor: 'red',
+        backgroundColor: '#339',
     },
     text: {
         fontSize: 20,
         color: 'black',
     },
     touchableHighlight: {
-        backgroundColor: 'orange',
+        backgroundColor: '#5533ff',
         borderRadius: 50,
         alignItems: 'center',
         position: 'absolute',
         left: 10,
-        top: 10,
+        top: 50,
     },
     open: {
         color: 'white',

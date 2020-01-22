@@ -40,7 +40,7 @@ const styles = StyleSheet.create({
         alignItems: 'center',
         position: 'absolute',
         left: 10,
-        top: 10,
+        top: 50,
     },
     open: {
         color: 'white',
